@@ -1,0 +1,20 @@
+<resources>
+    <string name="font_name_acm">acm</string>
+    <string name="font_name_rb">rb</string>
+    <string name="font_name_rbl">rbl</string>
+    <string name="font_name_rbold">rbold</string>
+    <string name="font_name_rboldl">rboldl</string>
+    <string name="font_name_rltalic">rltalic</string>
+    <string name="font_name_rlight">rlight</string>
+    <string name="font_name_rll">rll</string>
+    <string name="font_name_rm">rm</string>
+    <string name="font_name_rml">rml</string>
+    <string name="font_name_rr">rr</string>
+    <string name="font_name_rt">rt</string>
+    <string name="font_name_rtl">rtl</string>
+    <string name="font_name_br">br</string>
+    <string name="font_name_zz">zz</string>
+
+    <string name="app_name">VideoDemo</string>
+    <string name="ddd">说点什么.....</string>
+</resources>

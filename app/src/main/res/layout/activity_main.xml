@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <Button
+            android:id="@+id/viewmodel_activity_button"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="去viewModelProfile"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+        <Button
+            android:id="@+id/album"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Album"
+            app:layout_constraintTop_toBottomOf="@id/viewmodel_activity_button"
+            app:layout_constraintLeft_toLeftOf="@id/viewmodel_activity_button"
+            />
+
+        <Button
+            android:id="@+id/sing"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:layout_constraintTop_toBottomOf="@id/album"
+            app:layout_constraintLeft_toLeftOf="@id/album"
+            android:text="Sing"/>
+
+<!--        长按拍视频，点按拍照，目前都可以加贴纸-->
+        <Button
+            android:id="@+id/camera"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:layout_constraintTop_toBottomOf="@id/sing"
+            app:layout_constraintLeft_toLeftOf="@id/sing"
+            android:text="Camera"/>
+
+        <Button
+            android:id="@+id/video_page"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:layout_constraintTop_toBottomOf="@id/camera"
+            app:layout_constraintLeft_toLeftOf="@id/camera"
+            android:text="拍摄页面"/>
+
+        <Button
+            android:id="@+id/view_anchor"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:layout_constraintTop_toBottomOf="@id/video_page"
+            app:layout_constraintLeft_toLeftOf="@id/video_page"
+            android:text="主播页面"/>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
