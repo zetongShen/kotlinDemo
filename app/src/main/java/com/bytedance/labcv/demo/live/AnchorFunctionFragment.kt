@@ -41,13 +41,11 @@ class AnchorFunctionFragment: Fragment() {
 //        }
 
         binding.tvBarrage.setOnClickListener {
-            Log.e("ssssssdswew", "到底点积累没")
+            Log.e("ssssssdswew", "点击")
             fragmentManager?.let { it1 -> BarrageSendFragment().show(it1, "lll") }
         }
 
         initExtensionView()
-
-//        barsendModel.
     }
 
     private fun initExtensionView(){
